@@ -1,0 +1,23 @@
+{
+  "name": "wx-mp-update-manager",
+  "version": "0.1.2",
+  "description": "微信小程序更新管理工具",
+  "author": "Changeden",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "typings": "types/index.d.ts",
+  "files": [
+    "src",
+    "dist/*.js"
+  ],
+  "scripts": {
+    "build": "babel src/index.js -o dist/index.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "babel-loader": "^8.0.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
