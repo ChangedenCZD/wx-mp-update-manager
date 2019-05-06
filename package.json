@@ -5,7 +5,6 @@
   "author": "Changeden",
   "main": "dist/index.js",
   "license": "MIT",
-  "typings": "types/index.d.ts",
   "files": [
     "src",
     "dist/*.js"
